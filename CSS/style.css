@@ -351,13 +351,14 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-.filt-box,
-.filt-box1 {
+.filt-box {
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.filt-box1 {
-    margin-right: -30px;
+.filt-box:nth-child(3),
+.filt-box:nth-child(6),
+.filt-box:nth-child(9) {
+    margin-right: 0px;
 }
 
 .filt-box h2{
@@ -379,3 +380,4 @@ ul {
     margin: 0px;
 }
 
+ 
